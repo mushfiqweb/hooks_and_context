@@ -1,6 +1,6 @@
-## There is a blog post on this repository. This repository basically demonstrate how React Hooks and Context API work together. For the demonstration, I have created a basic Create, Read, Delete & Delete app.
+### There is a blog post on this repository. This repository basically demonstrate how React Hooks and Context API work together. For the demonstration, I have created a basic UI which can Create, Read, Delete & Delete some data and stores on memory. No API service is included.
 
-### [CRUD Using React Hooks and Context API](https://www.mushfiqweb.com/crud-using-react-hooks-and-context-api/)
+## [CRUD Using React Hooks and Context API](https://www.mushfiqweb.com/crud-using-react-hooks-and-context-api/)
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
