@@ -12,6 +12,7 @@ export const GlobalProvider = ({ children }) => {
     const [state, dispatch] = useReducer(AppReducer, initialState);
 
     function removeEmployee(id) {
+        console.log('Check');
         dispatch({
             type: 'REMOVE_EMPLOYEE',
             payload: id
