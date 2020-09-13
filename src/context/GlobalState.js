@@ -20,6 +20,7 @@ export const GlobalProvider = ({ children }) => {
     };
 
     function addEmployee(employees) {
+        console.log('Check');
         dispatch({
             type: 'ADD_EMPLOYEES',
             payload: employees
@@ -27,6 +28,7 @@ export const GlobalProvider = ({ children }) => {
     };
 
     function editEmployee(employees) {
+        console.log('Check');
         dispatch({
             type: 'EDIT_EMPLOYEE',
             payload: employees
