@@ -20,7 +20,7 @@ export const GlobalProvider = ({ children }) => {
     };
 
     function addEmployee(employees) {
-        console.log('Check');
+        
         dispatch({
             type: 'ADD_EMPLOYEES',
             payload: employees
